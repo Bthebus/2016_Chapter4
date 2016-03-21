@@ -1,15 +1,14 @@
-package za.ac.cput.SRP.bad;
+package za.ac.cput.SRP.bad.impl;
 
-import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
+import za.ac.cput.SRP.bad.services.KettleService;
 
 /**
  * Author       : Braedy Thebus (213039168)
  * Email        : Bthebus2@gmail.com
  * Date Created : 2016-03-21
  */
-public class Kettle implements KettleService{
+public class Kettle implements KettleService {
 
-    private double water;
     private boolean toggle = false;
     private double currentVolume = 0;
 
@@ -18,12 +17,6 @@ public class Kettle implements KettleService{
 
     public Kettle() {
     }
-
-    public Kettle(double water, boolean toggle) {
-        this.water = water;
-        this.toggle = toggle;
-    }
-
 
     @Override
     public boolean isFull()

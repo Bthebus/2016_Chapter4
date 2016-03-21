@@ -7,6 +7,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import za.ac.cput.SRP.appConfig.AppConfig;
+import za.ac.cput.SRP.bad.impl.Kettle;
+import za.ac.cput.SRP.bad.services.KettleService;
 
 /**
  * Author       : Braedy Thebus (213039168)
