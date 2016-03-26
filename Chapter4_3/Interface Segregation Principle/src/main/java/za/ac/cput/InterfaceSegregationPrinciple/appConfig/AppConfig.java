@@ -10,6 +10,7 @@ import za.ac.cput.InterfaceSegregationPrinciple.good.impl.SamsungCellphone;
  * Email        : Bthebus2@gmail.com
  * Date Created : 2016-03-25
  */
+@Configuration
 public class AppConfig {
     @Bean(name="cell1")
     public Cellphone getCellphone()

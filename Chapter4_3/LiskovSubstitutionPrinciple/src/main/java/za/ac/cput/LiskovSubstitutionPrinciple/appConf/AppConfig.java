@@ -9,6 +9,7 @@ import za.ac.cput.LiskovSubstitutionPrinciple.good.ImprovedKettle;
  * Email        : Bthebus2@gmail.com
  * Date Created : 2016-03-25
  */
+@Configuration
 public class AppConfig {
 
     @Bean(name="kettle")

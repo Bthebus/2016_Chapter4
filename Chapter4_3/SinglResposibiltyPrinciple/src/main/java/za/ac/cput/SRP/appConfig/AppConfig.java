@@ -11,6 +11,7 @@ import za.ac.cput.SRP.good.services.ImprovedKettleService;
  * Email        : Bthebus2@gmail.com
  * Date Created : 2016-03-21
  */
+@Configuration 
 public class AppConfig {
 
     @Bean(name="kettle")

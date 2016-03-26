@@ -9,6 +9,7 @@ import za.ac.cput.PrincipleOfLeastKnowledge.good.impl.Eagle;
  * Email        : Bthebus2@gmail.com
  * Date Created : 2016-03-26
  */
+@Configuration 
 public class AppConfig {
 
     @Bean(name="pigeon")
