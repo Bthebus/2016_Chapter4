@@ -1,5 +1,6 @@
 package za.ac.cput.DependencyInversionPrinciple.appConfig;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.DependencyInversionPrinciple.bad.Greeting;
 import za.ac.cput.DependencyInversionPrinciple.good.AnotherPerson;

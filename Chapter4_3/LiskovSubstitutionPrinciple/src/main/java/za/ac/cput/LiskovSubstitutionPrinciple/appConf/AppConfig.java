@@ -1,5 +1,6 @@
 package za.ac.cput.LiskovSubstitutionPrinciple.appConf;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.LiskovSubstitutionPrinciple.bad.Kettle;
 import za.ac.cput.LiskovSubstitutionPrinciple.good.ImprovedKettle;

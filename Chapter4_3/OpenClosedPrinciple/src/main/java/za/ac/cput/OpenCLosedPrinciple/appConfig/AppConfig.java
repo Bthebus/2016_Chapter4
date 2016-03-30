@@ -1,5 +1,6 @@
 package za.ac.cput.OpenCLosedPrinciple.appConfig;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.OpenCLosedPrinciple.bad.impl.Greeting;
 import za.ac.cput.OpenCLosedPrinciple.good.impl.CasualFormality;

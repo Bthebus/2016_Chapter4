@@ -1,5 +1,6 @@
 package za.ac.cput.PrincipleOfLeastKnowledge.appConfig;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.PrincipleOfLeastKnowledge.bad.impl.Pigeon;
 import za.ac.cput.PrincipleOfLeastKnowledge.good.impl.Eagle;

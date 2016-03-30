@@ -1,5 +1,6 @@
 package za.ac.cput.SRP.appConfig;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.SRP.bad.impl.Kettle;
 import za.ac.cput.SRP.bad.services.KettleService;

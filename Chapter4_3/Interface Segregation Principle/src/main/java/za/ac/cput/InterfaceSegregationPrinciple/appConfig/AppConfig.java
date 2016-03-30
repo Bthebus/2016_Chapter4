@@ -1,5 +1,6 @@
 package za.ac.cput.InterfaceSegregationPrinciple.appConfig;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import za.ac.cput.InterfaceSegregationPrinciple.bad.Cellphone;
 import za.ac.cput.InterfaceSegregationPrinciple.good.impl.LGCellphone;
